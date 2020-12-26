@@ -20,6 +20,9 @@ ul{
 li{
     padding: 1%;
 }
+p{
+    text-align: center;
+}
 hr{
     margin-top: 17%;
 }
