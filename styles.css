@@ -1,0 +1,28 @@
+body{
+    background-color: #C7EAE4;
+    margin: 0;
+}
+form{
+    border: solid;
+    background-color: #A7E8BD;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 1%;
+}
+hr{
+    margin-top: 17%;
+}
+footer{
+    padding-left: 1%;
+}

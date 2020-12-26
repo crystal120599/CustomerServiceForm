@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Customer Service</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="form-handling-page" method="POST">
+            <h1>Customer Service</h1>
+            <ul>
+                <li>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="user_name" placeholder="Ex: John Doe" required>
+                </li>
+                <li>
+                    <label for="order-number">Order Number: </label>
+                    <input type="text" name="order-number" id="user_order-number" placeholder="Ex: #XXXXXXXXXXX" required>
+                </li>
+                <li>
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="user_email" required>
+                </li>
+                <li>
+                    <label for="phone">Phone Number: </label>
+                    <input type="text" name="phone" id="phone" placeholder="Ex: xxx-xxx-xxxx">
+                </li>
+                <li>
+                    <label for="message">Issue/Questions: </label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Input any concerns"></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Submit">
+                </li>
+            </ul>
+        </form>
+        <hr>
+        <footer>Copyright &copy; crystal120599</footer>
+    </body>
+</html>
